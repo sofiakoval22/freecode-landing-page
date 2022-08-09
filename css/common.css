@@ -2,8 +2,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {
+
+body {
+    background-color: antiquewhite;
+}
+
+.name_h1 {
     text-transform: uppercase;
     color: chocolate;
     text-align: center;
-} 
+    padding: 20px;
+    
+}
+
+
+
+
