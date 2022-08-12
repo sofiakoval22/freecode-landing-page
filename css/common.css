@@ -1,19 +1,50 @@
-* { margin: 0;
+* { margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: antiquewhite;
+    background-color:lavender;
 }
 
 .name_h1 {
     text-transform: uppercase;
-    color: chocolate;
+    color:dimgrey;
     text-align: center;
-    padding: 20px;
-    
+    padding: 20px;  
 }
+
+#watch_works iframe {
+    margin: auto;
+    padding: 20px;
+    display: block;
+    align-items: center;
+
+}
+
+.header_page {
+    background-color:gainsboro
+}
+.watch_service {
+    background-color:gainsboro
+}
+
+.product {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.end__text {
+    text-align: center;
+}
+ 
+p {
+    color:dimgrey
+}
+
+
+
 
 
 
