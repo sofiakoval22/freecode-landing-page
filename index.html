@@ -8,8 +8,96 @@
     <link rel="stylesheet" href="css/index.css" />
     <title>watch</title>
 </head>
-
 <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="img/logo.png" alt="logo_text"/>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container"></div>
+      <section id="hero">
+        <h2>Brand watches for You</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+                <img src="img/free.png" alt="delivery" width="50">
+              <p>Fast and free delivery of goods. Each client receives a bonus card as a gift.
+                Delivery 1-2 days.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+                <img src="img/premium materials.png" alt="premium_material" width="50">
+                <p>Products are made of premium material, which have the best quality, which guarantees a long service life.
+                </p>
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+                <img src="img/qualityassurance.png" alt="warranty" width="50">
+                <p>The warranty period is 3 years. WARNING! The warranty covers only factory defects. Mechanical damage is
+                    not a warranty repair.</p>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <iframe id="video" height="315" src="https://www.youtube.com/embed/eVz-_kztrDA" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">SWISS MILITARY</div>
+            <h2>$600</h2>
+            <img class="img__watch" src="img/cart.jpg" alt="pick_up" width="300">
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">CASIO GA</div>
+            <h2>$900</h2>
+            <img class="img__watch" src="img/cart-watcht.jpg" alt="pick_up" width="300">
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">DIESEL</div>
+            <h2>$1300</h2>
+            <img class="img__watch" src="img/watch-cart.jpg" alt="pick_up" width="300">
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2022, CASIO</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--<body>
     <header class="header_page">
         <div class="page__logo">
             <div class="header_logo">
@@ -87,6 +175,6 @@
         </div>
     </footer>
 
-</body>
+</body>-->
 
 </html>
