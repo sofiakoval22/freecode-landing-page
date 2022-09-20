@@ -296,6 +296,10 @@ footer > span {
   color: #444;
 }
 
+.nav-link:hover {
+  color:blue;
+}
+
 
 
 
